@@ -3,7 +3,7 @@ import Footer from "../components/Footer";
 import Header from "../components/Header";
 
 const bannerData = {
-    img: "src/assets/aboutImage.jpg"
+    img: "aboutImage.jpg"
 };
 
 const About = () => {
