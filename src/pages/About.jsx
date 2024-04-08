@@ -1,4 +1,4 @@
-import Banner from "../components/Banner";
+import Banner from "../components/HeroBanner";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
 
