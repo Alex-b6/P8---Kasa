@@ -9,7 +9,7 @@ const HeroBanner = ({ img, children }) => {
 
 HeroBanner.propTypes = {
     img: PropTypes.string.isRequired,
-    children: PropTypes.node.isRequired,
+    children: PropTypes.node
 }
 
 export default HeroBanner;

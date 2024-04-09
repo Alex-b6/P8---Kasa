@@ -1,0 +1,16 @@
+.cards {
+    width: 100%;
+    max-width: $desktopPlus;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    @include responsive($tablet) {
+        padding: 50px;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 50px;
+        background: $sectionColor;
+        border-radius: 25px;
+    }
+}

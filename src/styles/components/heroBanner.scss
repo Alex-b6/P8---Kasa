@@ -1,0 +1,47 @@
+.heroBanner {
+    width: 100%;
+    max-width: $desktopPlus;
+    height: 110px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    @include responsive($tablet) {
+        height: 220px;
+        border-radius: 25px;
+    }
+
+    &::after {
+        content: "";
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background: rgba($color: #000000, $alpha: 0.6);
+    }
+
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    h1 {
+        width: 100%;
+        padding-inline: 5vw;
+        display: block;
+        z-index: 1;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: #fff;
+        font-size: 24px;
+        font-weight: 700;
+        text-align: center;
+        @include responsive($tablet) {
+            font-size: 48px;
+        }
+    }
+}
