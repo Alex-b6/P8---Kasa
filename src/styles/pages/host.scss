@@ -1,4 +1,5 @@
 .hostMain {
+    max-width: calc($desktopPlus + 10vw);
     .description {
         width: 100%;
         display: flex;

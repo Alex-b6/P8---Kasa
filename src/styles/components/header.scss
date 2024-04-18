@@ -12,6 +12,10 @@ header {
         margin-bottom: 50px;
     }
 
+    @media (min-width: 1600px) {
+        margin: 45px auto 50px; // Ajout de la marge automatique pour centrer le header horizontalement
+    }
+
     .kasaLogo {
         width: 145px;
         @include responsive($tablet) {
