@@ -60,6 +60,11 @@ header {
     margin-bottom: 50px;
   }
 }
+@media (min-width: 1600px) {
+  header {
+    margin: 45px auto 50px;
+  }
+}
 header .kasaLogo {
   width: 145px;
 }
@@ -424,6 +429,9 @@ footer .legal {
   text-decoration: underline;
 }
 
+.hostMain {
+  max-width: calc(1440px + 10vw);
+}
 .hostMain .description {
   width: 100%;
   display: flex;
