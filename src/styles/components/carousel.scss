@@ -17,7 +17,7 @@
     }
 
     p {
-        display: none;
+        /*display: none;*/
         @include responsive($tablet) {
             position: absolute;
             bottom: 20px;
